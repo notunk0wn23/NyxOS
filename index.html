@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--stylesheets-->
+    <link rel="stylesheet" href="CSS/main.css" />
+    <link rel="stylesheet" href="CSS/layout.css" />
+    <link rel="stylesheet" href="CSS/animations.css">
+    <link rel="stylesheet" href="CSS/forms.css">
+    <link rel="stylesheet" href="CSS/components/DateAndTime.css">
+    <link rel="stylesheet" href="CSS/components/TaskItem.css">
+    <title>NyxOS</title>
+  </head>
+  <body>
+    <div class="brightnessOverlay"></div>
+    <div class="content">
+      <main id="desktop"></main>
+      <footer id="taskbar">
+        <div class="taskItem" id="startMenuBtn">
+          <img
+            width="24"
+            height="24"
+            src="https://img.icons8.com/material-rounded/24/search.png"
+            alt="search"
+          />
+        </div>
+        <div id="startMenu">
+          <span id="text-l" id="display-user-name">
+            <img src="assets/icons/userpfp" alt="icon" />User 1
+            <button id="startMenuSettingsBtn">
+              <img src="assets/icon/gear.png" />
+            </button>
+          </span>
+          <hr />
+          <span class="s">Apps</span>
+        </div>
+        <input type="text" placeholder="Search" id="taskbarsearch">
+        <div class="taskItem" id="browserOpener">
+          
+        </div>
+        <!--apps-->
+        <div class="taskitem" id="openBrowser">
+
+        </div>
+
+        <!--quick settings-->
+        <div class="dateAndTime">
+          <span id="time" class="text-m"></span>
+          <span id="date" class="text-s"></span>
+        </div>
+        <div id="quickSettings" class="hidden">
+          <div class="flexRow">
+            <div class="toggleGroup">
+              <div class="WiFiQuickSetting">
+                <input type="checkbox" name="quickSettingInput" checked />
+                <img src="assets/icons/wifi.png" alt="WiFi icon" />
+                <h1 class="text-m">WiFi</h1>
+              </div>
+              <div class="BluetoothQuickSetting">
+                <input type="checkbox" name="quickSettingInput" />
+                <img src="assets/icons/bluetooth.png" alt="Bluetooth icon" />
+                <h1 class="text-m">Bluetooth</h1>
+              </div>
+            </div>
+          </div>
+          <div class="sliderControl">
+            <img src="assets/icons/speaker.png" alt="Volume icon" />
+            <h1 class="text-s">Volume</h1>
+            <input type="range" id="volumeQuickSettingInput" value="40" />
+          </div>
+          <div class="sliderControl">
+            <img src="assets/icons/sun.png" alt="Brightness icon" />
+            <h1 class="text-s">Brightness</h1>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="80"
+              id="brightnessQuickSettingInput"
+            />
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="app" id="browser">
+      <header>
+        <div class="flex flexRow">
+          <button class="minimize">
+            <img src="" alt="">
+          </button>
+          <button class="fullscreen">
+            <img>
+          </button>
+          <button class="close">
+            <img src="" alt="">
+          </button>
+        </div>
+      </header>
+      <main>
+        
+      </main>
+    </div>
+    <script src="/scripts/script.js"></script>
+  </body>
+</html>
