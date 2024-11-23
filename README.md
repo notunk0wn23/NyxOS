@@ -51,3 +51,6 @@
 1. Fork the repository.
 2. Make your changes in a feature branch.
 3. Submit a pull request with detailed comments on your updates.
+
+## License
+NyxOS is released under the MIT License. Feel free to use, modify, and distribute this project with proper attribution.
