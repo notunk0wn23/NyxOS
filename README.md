@@ -30,7 +30,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/dxrkstarz/nyxos.git
+git clone https://github.com/dxrkstarz/NyxOS.git
 cd nyxos
 Open index.html in your browser to run NyxOS.
 
