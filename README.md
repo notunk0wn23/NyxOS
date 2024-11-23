@@ -41,3 +41,13 @@
    ```bash
    git clone https://github.com/your-username/nyxos.git
    cd nyxos
+2. Open index.html in your browser to run NyxOS.
+
+3. Customize the settings, explore features, and enjoy the experience!
+
+## Development
+### Contributions are welcome! Here's how to get started:
+
+1. Fork the repository.
+2. Make your changes in a feature branch.
+3. Submit a pull request with detailed comments on your updates.
