@@ -39,8 +39,8 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/nyxos.git
-   cd nyxos
+   git clone https://github.com/dxrkstarz/NyxOS.git
+   cd NyxOS
 2. Open index.html in your browser to run NyxOS.
 
 3. Customize the settings, explore features, and enjoy the experience!
