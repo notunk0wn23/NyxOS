@@ -3,29 +3,11 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 #desktop {
   flex: 1;
   position: relative;
   padding: 1rem;
-}
-
-#taskbar {
-  position: fixed;
-  bottom: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
-  width: calc(100% - 2rem);
-  max-width: 1200px;
-  height: 64px;
-  background: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 1rem;
-  display: flex;
-  align-items: center;
-  padding: 0 1rem;
-  z-index: 1000;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }

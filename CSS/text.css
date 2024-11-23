@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+#desktop {
+  flex: 1;
+  position: relative;
+  padding: 1rem;
+}
+
+/* General text adjustments for consistency */
+body, .text-s, .text-m {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#taskbar {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 2rem);
+  max-width: 1200px;
+  height: 64px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  z-index: 1000;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Text sizes */
+.text-s {
+  font-size: 12px;
+}
+
+.text-m {
+  font-size: 16px;
+}
+
+.text-l {
+  font-size: 20px;
+}
