@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+body {
+  background: linear-gradient(-16deg, #000, #000, #fff, #fff);
+  background-size: 400% 400%;
+  -webkit-animation: gradientAnimation 15s ease infinite; /* Added for WebKit */
+  animation: gradientAnimation 15s ease infinite;
+  color: #fff;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+  opacity: 0.8;
+}
